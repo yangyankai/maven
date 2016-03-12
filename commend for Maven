@@ -1,0 +1,6 @@
+mvn clean    清除编译生成的文件
+mvn compile  编译
+mvn test  单元测试
+mvn package  打包
+mvn jetty:run/mvn （tomcat:run） 使用jetty插件（或者tomcat）插件运行调试
+mvn clean install -DskipTests 跳过测试
